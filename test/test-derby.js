@@ -105,7 +105,7 @@ module.exports = {
             test.ok(results[0].DATE);
             test.ok(results[0].TIME);
             test.ok(results[0].TIMESTAMP);
-            test.equal(results[0].DOLLARS, 12.01)
+            test.equal(results[0].DOLLARS, 12.01);
             test.done();
           });
         });
